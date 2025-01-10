@@ -1,0 +1,15 @@
+{
+  "cli": {
+    "version": ">= 0.38.0"
+  },
+  "build": {
+    "production": {
+      "releaseChannel": "production",
+      "developmentClient": false
+    },
+    "preview": {
+      "releaseChannel": "preview",
+      "developmentClient": true
+    }
+  }
+}
